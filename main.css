@@ -123,19 +123,6 @@ section:nth-child(2n + 1) {
     padding-top: 10px;
     margin-right: 0.5rem;
 }
-
-/* #about {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .inner-div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 20px;
-  }
-  */
   
   .inner-div .card {
     flex: 0 0 calc(33.33% - 20px);
@@ -298,7 +285,7 @@ section:nth-child(2n + 1) {
   .content ul li:hover {
     transform: scale(1.1); /* Increase the size on hover */
     font-weight: bold;
-    transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+    transition: transform 0.3s ease-in-out; 
 
 }
 
