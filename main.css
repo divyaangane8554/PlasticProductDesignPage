@@ -291,8 +291,17 @@ section:nth-child(2n + 1) {
   }
 
   .content ul li{
-    padding: 3px;
+    padding: 4px;
+    font-size: 1.2rem;
   }
+
+  .content ul li:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+
+}
+
 
   .collapsible:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
