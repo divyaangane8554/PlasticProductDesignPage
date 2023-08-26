@@ -178,7 +178,7 @@ section:nth-child(2n + 1) {
     }
 } */
 
-.card{
+.card {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -189,7 +189,15 @@ section:nth-child(2n + 1) {
     border-radius: 16px;
     text-align: center;
     box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.card:hover {
+    transform: scale(1.05); /* Increase size by 5% on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover */
+}
+
+
 #about {
     display: flex;
     justify-content: center;
